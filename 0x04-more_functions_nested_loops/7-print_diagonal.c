@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line in the terminal
+ * print_diagonal - draws a straight line in the terminal
  * @n: line character
  * Return: void
 */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int x, y;
 
