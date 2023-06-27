@@ -1,9 +1,11 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
- * main - prints the numbers from 1 to 100, followed by a new
- * line. For multiples of 3 print Fizz instead of the number
+ * main - entry point
+ * Description: prints the numbers from 1 to 100, followed
+ * by a new line. For multiples of 3 print Fizz instead of
+ * the number
  * and for the multiples of 5 print Buzz. For numbers which
  * are multiples of bothe 3 and 5 print FizzBuzz
  * Return: always 0
@@ -22,7 +24,7 @@ int main(void)
 		else if (n % 5 == 0)
 			printf("Buzz");
 		else
-			printf("%n", n)
+			printf("%n", n);
 		if (n < 100)
 			printf(" ");
 	}
