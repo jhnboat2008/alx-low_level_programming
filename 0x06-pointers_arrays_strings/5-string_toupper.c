@@ -11,12 +11,12 @@ char *string_toupper(char *c)
 {
 	int x;
 
-	x = 0;
+x = 0;
 	while (*(c + x))
 	{
 		if (*(c + x) >= 'a' && *(c + x) <= 'z')
 			*(c + x) -= 'a' - 'A';
-			x++;
+		x++;
 	}
 	return (c);
 }
