@@ -15,11 +15,11 @@ int s;
 
 	for (s = 0; s < n && *(src + s); s++)
 	{
-		*(dest + 1) = *(src + 1);
+		*(dest + s) = *(src + s);
 	}
 	for (; s < n; s++)
 	{
-	*(dest + 1) = '\0';
+	*(dest + s) = '\0';
 	}
 	return (dest);
 }
