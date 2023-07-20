@@ -7,7 +7,7 @@
  * the end of dest, and then adds a terminating null byte
  * @dest: string1
  * @src: string2
- * Returns: a pointer to the resulting string dest
+ * Return: string c
 */
 
 char *_strcat(char *dest, char *src)
