@@ -10,7 +10,7 @@ char *rot13(char *s)
 {
 	int a, b;
 	char c[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	char d[] = "mnopqrstuvwxyzabcdefghijklMNOPQRSTUVWXYZABCDEFGHIJKL
+	char d[] = "mnopqrstuvwxyzabcdefghijklMNOPQRSTUVWXYZABCDEFGHIJKL"
 
 	for (a = 0; *(s + a); a++)
 	{
