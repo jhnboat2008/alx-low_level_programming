@@ -2,8 +2,8 @@
 
 /**
  * rot13 - Write a function that encodes a string using rot13
- * @c: string
- * Return: address of c
+ * @s: string
+ * Return: address of s
 */
 
 char *rot13(char *s)
